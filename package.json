@@ -1,9 +1,9 @@
 {
-  "name": "leo_page_web",
+  "name": "fabiquispe_ong_web",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://github.com/reynaldo-94/fabiquispe_ong_web/build",
+  "homepage": "https://github.com/reynaldo-94/fabiquispe_ong_web/dist",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
