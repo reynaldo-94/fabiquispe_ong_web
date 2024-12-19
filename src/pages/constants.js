@@ -56,22 +56,22 @@ export const imgsFotosDonaciones = [
   {
     id: '1',
     title: 'Foto 1',
-    image: '/foto_donacion_1.jpg'
+    image: './foto_donacion_1.jpg'
   },
   {
     id: '2',
     title: 'Foto 2',
-    image: '/foto_donacion_2.jpg'
+    image: './foto_donacion_2.jpg'
   },
   {
     id: '3',
     title: 'Foto 3',
-    image: '/foto_donacion_3.jpeg'
+    image: './foto_donacion_3.jpeg'
   },
   {
     id: '4',
     title: 'Foto 4',
-    image: '/foto_donacion_4.jpeg'
+    image: './foto_donacion_4.jpeg'
   }
 ]
 
