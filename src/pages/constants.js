@@ -4,7 +4,7 @@ export const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 export const items = [
   {
     title: 'Image 1',
-    image: 'src/assets/system/carouselong2.jpg'
+    image: 'src/assets/system/fondo_inicio_5.jpg'
   },
   // {
   //   title: 'Image 2',
@@ -52,21 +52,26 @@ export const listExperiences = [
   },
 ]
 
-export const imgsAlianzas = [
+export const imgsFotosDonaciones = [
   {
     id: '1',
-    title: 'Universidad Mayor de San Marcos',
-    image: 'src/assets/system/logo-unmsm.png'
+    title: 'Foto 1',
+    image: '/foto_donacion_1.jpg'
   },
   {
     id: '2',
-    title: 'Universidad Católica',
-    image: 'src/assets/system/logo-cato.jpg'
+    title: 'Foto 2',
+    image: '/foto_donacion_2.jpg'
   },
   {
     id: '3',
-    title: 'Universidad Mayor de San Marcos2',
-    image: 'src/assets/system/logo-unmsm.png'
+    title: 'Foto 3',
+    image: '/foto_donacion_3.jpeg'
+  },
+  {
+    id: '4',
+    title: 'Foto 4',
+    image: '/foto_donacion_4.jpeg'
   }
 ]
 
@@ -92,6 +97,27 @@ export const listServices = [
     image: 'src/assets/system/servicio3.jpg',
     path: '/destruccion-residuos-solidos'
   }
+]
+
+export const listDonations = [
+  {
+    id: '1',
+    title: 'Alimentos',
+    detail: 'Arroz, ensaladas, sopas, pastas, metales, plásticos, papelería, cartones, cabbles, artículosz del hogar, etc.',
+    image: 'src/assets/system/donar_alimentos.jpg',
+  },
+  {
+    id: '2',
+    title: 'Electrodomésticos',
+    detail: 'Cocinas, lavadoras, refrigeradoras, secadora, microondas, tostadoras, etc.',
+    image: 'src/assets/system/donar_electrodomesticos_2.jpg',
+  },
+  {
+    id: '3',
+    title: 'Juguetes',
+    detail: 'Peluches, muñecos, pelucas, raquetas, play station, juegos inflables, juegos de mesa, carros a batería, bicicleta, coches de bebe, etc.',
+    image: 'src/assets/system/donar_juguetes.jpeg',
+  },
 ]
 
 // export const listServicesInfantil = [

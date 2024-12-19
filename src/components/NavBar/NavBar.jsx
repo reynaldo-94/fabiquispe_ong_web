@@ -75,7 +75,7 @@ export const NavBar = (props) => {
               <Typography noWrap component="a"
                 href="#app-bar-with-responsive-menu"
                 sx={{
-                  mr: 2,
+                  // mr: 2,
                   display: { xs: 'none', md: 'flex' },
                   fontFamily: 'monospace',
                   fontWeight: 700,
@@ -83,14 +83,14 @@ export const NavBar = (props) => {
                   color: 'inherit',
                   textDecoration: 'none',
                 }}>
-                <img src='src/assets/system/logo2.png' onClick={() => navigate('/')} width='80' />
+                <img src='src/assets/system/logo_new.jpeg' onClick={() => navigate('/')} width='80' />
               </Typography>
 
               <Box display='flex' flexDirection='column'>
                 <Typography color='#000' fontWeight='bold'>
                   Welcome to
                 </Typography>
-                <Typography color='#15bdca' fontWeight='bold'>
+                <Typography color='#5ab2d8' fontWeight='bold'>
                   New World
                 </Typography>
               </Box>
@@ -168,30 +168,13 @@ export const NavBar = (props) => {
                     endIcon={page.menu && <KeyboardArrowDown />}
                   >
                     {
-                      !page.menu ? (
+                      !page.wsp ? (
                         <Link to={page.path} style={{ textDecoration: 'none', color: page.background ? ThemePalette.WHITE: ThemePalette.BLACK_MEDIUM, fontWeight: '600'}}>
                           {page.label}
                         </Link>
-                      ) : <Typography component='span' fontSize='0.875rem' color={ThemePalette.BLACK_MEDIUM} fontWeight='600'>{page.label}</Typography>
+                      ) : <Typography onClick={() => window.open('https://wa.me/51916502605', '_blank')} component='span' fontSize='0.875rem' color={ThemePalette.WHITE} fontWeight='600'>{page.label}</Typography>
                     }
                   </CButton>
-                  {
-                    page.menu && (
-                      <StyledMenu
-                        id="basic-menu"
-                        MenuListProps={{
-                          'aria-labelledby': 'basic-button',
-                        }}
-                        anchorEl={anchorEl}
-                        open={Boolean(anchorEl)}
-                        onClose={handleClose}
-                      >
-                        <MenuItem onClick={() => onClickItemMenu('/transporte-disposicion-final')}>Transporte a disposición final</MenuItem>
-                        <MenuItem onClick={() => onClickItemMenu('/comercializacion-residuos')}>Comercialización de residuos</MenuItem>
-                        <MenuItem onClick={() => onClickItemMenu('/destruccion-residuos-solidos')}>Destrucción de residuos sólidos</MenuItem>
-                      </StyledMenu>
-                    )
-                  }
                 </div>
             ))}
             </Box>
@@ -200,11 +183,6 @@ export const NavBar = (props) => {
       </AppBar>
       <Toolbar id="back-to-top-anchor" />
       <Outlet />
-      {/* <ScrollTop {...props}>
-        <Fab size="small" aria-label="scroll back to top">
-          <KeyboardArrowUp />
-        </Fab>
-      </ScrollTop> */}
     </>
   )
 }

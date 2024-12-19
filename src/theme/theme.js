@@ -11,9 +11,13 @@ export const ThemePalette = {
   PURPLE_LIGHT_CARD: '#ca7fc6',
   GREEN_MEDIUM: '#60BB46',
   RED: '#ff0000',
-  PRIMARY: '#25b2bc',
+  
+  
+  PRIMARY: '#5ab2d8', //BLUE
 
-  BUTTON_NAVBAR: '#15bdca',
+  TEXT_WHITE: '#f2f2f2',
+
+  BUTTON_NAVBAR: '#5ab2d8',
   BACKGROUND_FOOTER: '#60BB46',
   WHITE: '#fff',
   
