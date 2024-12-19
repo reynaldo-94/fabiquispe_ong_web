@@ -82,7 +82,7 @@ export const HomePage = () =>  {
             padding: '10px',
             borderRadius: '20px'
           }}>
-            <Typography>¿No sabes que hacer con tus objetosen desuso?</Typography>
+            <Typography>¿No sabes que hacer con tus objetos en desuso?</Typography>
             <Button sx={{ fontWeight: 'bold' }} >Dona desde tu hogar y empresa</Button>
 
             <Box>
