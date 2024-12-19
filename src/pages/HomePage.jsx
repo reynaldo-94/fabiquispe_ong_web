@@ -59,7 +59,7 @@ export const HomePage = () =>  {
 
       <Box 
         sx={{ 
-          backgroundImage: 'url(src/assets/system/fondo_inicio_5.jpg)', 
+          backgroundImage: 'url(./fondo_inicio_5.jpg)', 
           height: '100vh',
           width: '100%',
           backgroundRepeat: 'round'
@@ -171,7 +171,7 @@ export const HomePage = () =>  {
           <Grid item xs={12} md={4} rowSpacing='10px' display='flex' flexDirection='column'>
 
             <Box display='flex' justifyContent='center'>
-              <img src='src/assets/system/mision.jpg' width={220} />
+              <img src='./mision.jpg' width={220} />
             </Box>
 
             <Typography component='p' textAlign='center' fontSize={FontSize.PARAGRAPH} padding='0px 50px'>POAS cuenta con la colaboración de 3.640 personas socias, personas voluntarias y trabajadoras</Typography>            
@@ -180,7 +180,7 @@ export const HomePage = () =>  {
           </Grid>
           <Grid item xs={12} md={4} rowSpacing={4} display='flex' flexDirection='column' gap='10px'>
             <Box display='flex' justifyContent='center'>
-              <img src='src/assets/system/vision.jpg' width={220} height={220} />
+              <img src='./vision.jpg' width={220} height={220} />
             </Box>
 
             <Typography component='p' textAlign='center' fontSize={FontSize.PARAGRAPH} padding='0px 50px'>Esta integrada por 35 organizaciones no gubernamentales, confederaciones, federaciones y redes estatales que realizan 1234 atenciones</Typography>            
@@ -189,7 +189,7 @@ export const HomePage = () =>  {
           </Grid>
           <Grid item xs={12} md={4} rowSpacing={4} display='flex' flexDirection='column' gap='10px'>
             <Box display='flex' justifyContent='center'>
-              <img src='src/assets/system/vision.jpg' width={220} height={220} />
+              <img src='./vision.jpg' width={220} height={220} />
             </Box>
 
             <Typography component='p' textAlign='center' fontSize={FontSize.PARAGRAPH} padding='0px 50px'>Desde la plataforma se promueve la participación en el ámbito de la Acción Social y generar cambio social</Typography>
@@ -222,7 +222,7 @@ export const HomePage = () =>  {
           </Button>
           <Button></Button>
         </Box>
-        <Box flex={1}><img src='/donar_reciclaje.jpg' width='100%' /></Box>
+        <Box flex={1}><img src='./donar_reciclaje.jpg' width='100%' /></Box>
       </Box>
 
 

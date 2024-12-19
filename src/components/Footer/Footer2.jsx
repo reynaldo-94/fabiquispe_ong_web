@@ -6,7 +6,7 @@ import { ThemePalette } from '../../theme/theme';
 export const Footer = () => (
   <Grid container marginTop='20px' p='20px 50px' component="footer" bgcolor={ThemePalette.PURPLE_LIGHT} rowSpacing={2} color={ThemePalette.WHITE}>        
     <GridInfoLogoFooter item xs={12} md={2}>
-      <img src='src/assets/system/logo-text-short.png' height={48} />
+      <img src='./logo-text-short.png' height={48} />
     </GridInfoLogoFooter>
 
     <GridInfoDetailFooter item xs={12} md={6} component="div" flexDirection="column" gap="3px" pl={20}>

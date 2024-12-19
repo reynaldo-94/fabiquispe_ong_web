@@ -35,7 +35,7 @@ const renderItem = (data) =>  (
 const items = [
   {
     title: 'Image 1',
-    image: 'src/assets/system/noticias-1.png'
+    image: './noticias-1.png'
   },
   // {
   //   title: 'Image 2',

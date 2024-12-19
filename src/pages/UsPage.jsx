@@ -50,7 +50,7 @@ export const UsPage = () => {
         </Grid>
 
         <Grid item xs={12} md={6} display='flex' justifyContent='center'>
-          <img src='src/assets/system/terapias.jpg' width='100%' />
+          <img src='./terapias.jpg' width='100%' />
         </Grid>
 
       </Grid>    
@@ -61,7 +61,7 @@ export const UsPage = () => {
       <Box display='flex' justifyContent='center'>
 
         <Box display='flex' flex={1}>
-          <img src='/mision.jpg' width='100%' style={{ padding: '30px' }}  />
+          <img src='./mision.jpg' width='100%' style={{ padding: '30px' }}  />
         </Box>
 
         <Box display='flex' flexDirection='column' flex={1} gap='60px' justifyContent='center'>

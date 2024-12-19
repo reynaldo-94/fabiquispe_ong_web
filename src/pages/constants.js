@@ -4,7 +4,7 @@ export const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 export const items = [
   {
     title: 'Image 1',
-    image: 'src/assets/system/fondo_inicio_5.jpg'
+    image: './fondo_inicio_5.jpg'
   },
   // {
   //   title: 'Image 2',
@@ -19,15 +19,15 @@ export const items = [
 export const imgCarouselUs = [
   {
     title: 'Image 1',
-    image: 'src/assets/system/img1.jpg'
+    image: './img1.jpg'
   },
   {
     title: 'Image 2',
-    image: 'src/assets/system/img1.jpg'
+    image: './img1.jpg'
   },
   {
     title: 'Image 3',
-    image: 'src/assets/system/img1.jpg'
+    image: './img1.jpg'
   }
 ]
 
@@ -80,21 +80,21 @@ export const listServices = [
     id: 1,
     title: 'Servicio de transporte a disposición final',
     detail: 'Dirigido para personas de 2 a 17 años',
-    image: 'src/assets/system/servicio3.jpg',
+    image: './servicio3.jpg',
     path: '/transporte-disposicion-final'
   },
   {
     id: 2,
     title: 'Comercialización de residuos',
     detail: 'Dirigido para personas de 18 años a más',
-    image: 'src/assets/system/servicio2.jpg',
+    image: './servicio2.jpg',
     path: '/comercializacion-residuos'
   },
   {
     id: 3,
     title: 'Destrucción de residuos sólidos',
     detail: 'Dirigos para niños de 3 a 12 años',
-    image: 'src/assets/system/servicio3.jpg',
+    image: './servicio3.jpg',
     path: '/destruccion-residuos-solidos'
   }
 ]
@@ -104,19 +104,19 @@ export const listDonations = [
     id: '1',
     title: 'Alimentos',
     detail: 'Arroz, ensaladas, sopas, pastas, metales, plásticos, papelería, cartones, cabbles, artículosz del hogar, etc.',
-    image: 'src/assets/system/donar_alimentos.jpg',
+    image: './donar_alimentos.jpg',
   },
   {
     id: '2',
     title: 'Electrodomésticos',
     detail: 'Cocinas, lavadoras, refrigeradoras, secadora, microondas, tostadoras, etc.',
-    image: 'src/assets/system/donar_electrodomesticos_2.jpg',
+    image: './donar_electrodomesticos_2.jpg',
   },
   {
     id: '3',
     title: 'Juguetes',
     detail: 'Peluches, muñecos, pelucas, raquetas, play station, juegos inflables, juegos de mesa, carros a batería, bicicleta, coches de bebe, etc.',
-    image: 'src/assets/system/donar_juguetes.jpeg',
+    image: './donar_juguetes.jpeg',
   },
 ]
 
@@ -157,31 +157,31 @@ export const listServicesInfantil = [
   {
     id: 1,
     title: 'Terapia de lenguaje',
-    image: 'src/assets/system/terapia-ocupacional.jpg'
+    image: './terapia-ocupacional.jpg'
   },
   {
     id: 2,
     title: 'Psicología infantil',
-    image: 'src/assets/system/terapia-ocupacional.jpg'
+    image: './terapia-ocupacional.jpg'
   },
   {
     id: 3,
     title: 'Terapia ocupacional y sensorial',
-    image: 'src/assets/system/terapia-ocupacional.jpg'
+    image: './terapia-ocupacional.jpg'
   },
   {
     id: 4,
     title: 'Terapia de aprendizaje',
-    image: 'src/assets/system/terapia-ocupacional.jpg'
+    image: './terapia-ocupacional.jpg'
   },
   {
     id: 5,
     title: 'Evaluaciones psicológicas para colegio',
-    image: 'src/assets/system/terapia-ocupacional.jpg'
+    image: './terapia-ocupacional.jpg'
   },
   {
     id: 6,
     title: 'Test vocacioanl',
-    image: 'src/assets/system/terapia-ocupacional.jpg'
+    image: './terapia-ocupacional.jpg'
   },
 ]

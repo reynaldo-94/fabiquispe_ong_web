@@ -83,7 +83,7 @@ export const NavBar = (props) => {
                   color: 'inherit',
                   textDecoration: 'none',
                 }}>
-                <img src='src/assets/system/logo_new.jpeg' onClick={() => navigate('/')} width='80' />
+                <img src='./logo_new.jpeg' onClick={() => navigate('/')} width='80' />
               </Typography>
 
               <Box display='flex' flexDirection='column'>
@@ -147,7 +147,7 @@ export const NavBar = (props) => {
                 color: 'inherit',
                 textDecoration: 'none',
               }}>
-              <img src='src/assets/system/logo-text-short.png' width={120} height={48} />
+              <img src='./logo-text-short.png' width={120} height={48} />
             </Typography>
 
             {/* View Desktoop */}            

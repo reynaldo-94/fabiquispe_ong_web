@@ -7,7 +7,7 @@ export const TerapiaLenguajePage = () => {
     <Grid container p='35px 50px 41px' rowSpacing='20px' columnSpacing='40px'>
 
       <Grid item xs={12} md={6} display='flex' justifyContent='center'>
-        <img src='src/assets/system/terapias.jpg' width='100%' />
+        <img src='./terapias.jpg' width='100%' />
       </Grid>
       <Grid item xs={12} md={6} component='div' display='flex' flexDirection='column' gap='10px'>
         {/* <TitleSection 
